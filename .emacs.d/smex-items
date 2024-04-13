@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ org-mode
+ overwrite-mode
  eval-buffer
  byte-compile-file
  eshell
  package-refresh-contents
  customize-face
- package-install
- load-file
 )
 
 ;; ----- smex-data -----
@@ -26,4 +26,7 @@
  (counsel-find-file . 2)
  (package-refresh-contents . 1)
  (byte-compile-file . 1)
+ (org-export-dispatch . 1)
+ (org-mode . 6)
+ (overwrite-mode . 1)
 )
