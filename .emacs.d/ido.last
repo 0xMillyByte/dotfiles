@@ -18,11 +18,12 @@
  ("/home/emilia/Coding/Rust/AdventOfCode/" . "day-02/")
  ("/home/emilia/Coding/Rust/" . "AdventOfCode/")
  ("/home/emilia/Coding/" . "SELab/")
- ("/home/emilia/" . "Coding/")
+ ("/home/emilia/" . "dotfiles/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/emilia/dotfiles/"
  "/home/emilia/Coding/SELab/selab-2324-g46/cheat-sheets/"
  "/home/emilia/Coding/SELab/selab-2324-g46/verslagen/"
  "/home/emilia/Coding/SELab/"
@@ -44,6 +45,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "README.md"
  "cheat-sheet-emilia.md"
  "Verslag-6-Troubleshooting.md"
  "gegevens.md"
@@ -53,14 +55,15 @@
  "roomieNotes.md"
  "casper-installatie.sh"
  "emilia-installatie.sh"
- "Verslag-1-package-manager-markdown.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/emilia/Coding/SELab/selab-2324-g46/cheat-sheets/" (26169 51728 516074 739000) "cheat-sheet-elza.md" "cheat-sheet-casper.md" "cheat-sheet-template.md" "cheat-sheet-dencall.md" "../" "./" "debugging-selab.md" "cheat-sheet-emilia.md" "Emily-cheat-sheet.md" "images/")
+ ("/home/emilia/dotfiles/" (26179 26186 103874 980000) ".emacs.d/" "../" ".zshrc" "./" ".config/" "README.md" ".git/")
 
- ("/home/emilia/" (26169 54193 524843 568000) "Templates/" ".pcsxr/" "bridge2.wav" ".mycli-history" ".ssh/" ".zcompdump-emilia-ns5xns7xpu-5.9.zwc" "2024-04-14 17-51-36.mkv" "2024-04-14 17-59-14.mp4" "zsh-syntax-highlighting/" "2024-03-20 21-37-51.mkv" ".yarn/" ".emacs.d/" "go/" "Documents/" "docker-compose.yml" "Adwaita-for-Steam/" ".mono/" ".wine/" ".z" ".parallel/" "Music/" "Direct Messages - elo3 [1071553470303322233].html" ".install4j" ".var/" "catppuccin-gtk-theme-mocha/" "2024-03-20 21-37-51.mp4" "chorus2.wav" ".cargo/" ".mysql_history" "2024-03-21 19-40-55.mkv" "image.png" "Public/" ".myclirc" "verse2-1.wav" ".eclipse/" ".zshrc.bak" "Pictures/" "2024-04-14 17-48-32.mp4" ".bashrc" "test" "smol.jpg" ".histfile" "Games/" "packettracer/" ".npm/" ".zshrc" ".pki/" ".mozilla/" "smollestestest.jpg" "2024-04-14 17-51-36.mp4" "Recording 3.flac" "roomieNotes.md" "dotfiles/" "test$" ".Heaven/" "RoomieNotes.org" ".config/" ".nuget/" ".ServiceHub/" ".java/" "verse2-1.1.wav" "back.svg" ".m2/" ".runelite/" ".bash_logout" ".helm/" "eclipse-workspace/" ".android/" ".logseq/" ".bash_history" "Downloads/" "visual-paradigm/" ".mycli.log" "RoomieNotes.odt" ".scenebuilder/" ".helm-synth/" "shenzhen.log" ".steampath" ".putty/" "Godot Projects/" "out.mp4" "Visual_Paradigm_17.1/" ".zsh/" "smollestest.jpg" ".mysql/" ".p10k.zsh" ".themes/" ".swt/" "Pixel art/" ".yarnrc" ".gk/" "linux-wallpaperengine/" ".omnisharp/" "Recording 1.flac" ".tuxpaint/" ".zcompdump-emilia-ns5xns7xpu-5.9" ".gitkraken/" ".env.save" "thirdmonado.mp4" "Coding/" ".rustup/" ".zsh_history" "2024-04-22 14-29-24.mkv" ".factorio/" "bridge1.wav" "VirtualBox VMs/" "qmk_firmware/" "chorus1.wav" "Important/" ".dotnet/" ".bash_profile" ".minetest/" "smoller.jpg" ".env.save~" "2024-04-14 17-48-07.mkv" "Recording 2.flac" ".minecraft/" ".npmrc" ".steampid" "roomieNotes.md~" ".wget-hsts" "2024-04-22 14-29-19.mkv" ".steam/" ".gitconfig" "Passwords.kdbx" "2024-04-22 14-29-24.mp4" "lyrics.txt" ".vscode-oss/" "Desktop/" ".pulse-cookie" "2024-04-14 17-48-32.mkv" "2024-04-14 17-59-14.mkv" ".cache/" ".zcompdump" "verse1.wav" "2024-04-22 14-29-41.mkv" "smollest.jpg" ".thunderbird/" "index.html" ".BEID_0.log" "2024-04-22 14-29-41.mp4" "Videos/" ".python_history" ".local/" ".gnupg/" ".packettracer" ".lazarus/" ".runescape" "verse2-2.wav" "../" "./")
+ ("/home/emilia/" (26179 26186 95874 989000) "Templates/" ".pcsxr/" ".fishnet-stats" "bridge2.wav" ".mycli-history" ".ssh/" ".zcompdump-emilia-ns5xns7xpu-5.9.zwc" "2024-04-14 17-51-36.mkv" "2024-04-14 17-59-14.mp4" "zsh-syntax-highlighting/" "2024-03-20 21-37-51.mkv" ".yarn/" ".emacs.d/" "go/" "Documents/" "docker-compose.yml" "Adwaita-for-Steam/" ".mono/" ".wine/" ".z" ".parallel/" "Music/" "Direct Messages - elo3 [1071553470303322233].html" ".install4j" ".var/" "catppuccin-gtk-theme-mocha/" "2024-03-20 21-37-51.mp4" "chorus2.wav" ".cargo/" ".mysql_history" "2024-03-21 19-40-55.mkv" "image.png" "Public/" ".myclirc" "verse2-1.wav" ".eclipse/" ".zshrc.bak" "Pictures/" "2024-04-14 17-48-32.mp4" ".bashrc" "test" "smol.jpg" ".histfile" "Games/" "RustroverProjects/" "packettracer/" ".npm/" ".zshrc" ".pki/" "fishnet.ini" ".mozilla/" "smollestestest.jpg" "2024-04-14 17-51-36.mp4" "Recording 3.flac" "roomieNotes.md" "dotfiles/" "test$" ".Heaven/" "RoomieNotes.org" ".config/" ".nuget/" ".ServiceHub/" ".java/" "verse2-1.1.wav" "back.svg" ".m2/" ".runelite/" ".bash_logout" ".helm/" "eclipse-workspace/" ".android/" ".logseq/" ".bash_history" "Downloads/" "visual-paradigm/" ".mycli.log" "RoomieNotes.odt" ".scenebuilder/" ".helm-synth/" "shenzhen.log" ".steampath" ".putty/" "Godot Projects/" "out.mp4" "Visual_Paradigm_17.1/" ".zsh/" "smollestest.jpg" ".mysql/" ".p10k.zsh" ".themes/" ".swt/" "Pixel art/" ".yarnrc" ".gk/" "linux-wallpaperengine/" ".omnisharp/" "Recording 1.flac" ".tuxpaint/" ".zcompdump-emilia-ns5xns7xpu-5.9" ".gitkraken/" ".env.save" "thirdmonado.mp4" "Coding/" ".rustup/" ".zsh_history" "2024-04-22 14-29-24.mkv" ".factorio/" "bridge1.wav" "VirtualBox VMs/" "qmk_firmware/" "chorus1.wav" "Important/" ".dotnet/" ".bash_profile" ".minetest/" "smoller.jpg" ".env.save~" "2024-04-14 17-48-07.mkv" "Recording 2.flac" ".minecraft/" ".npmrc" ".steampid" "roomieNotes.md~" ".wget-hsts" "2024-04-22 14-29-19.mkv" ".steam/" ".gitconfig" "Passwords.kdbx" "2024-04-22 14-29-24.mp4" "lyrics.txt" "dumps/" ".vscode-oss/" "Desktop/" ".pulse-cookie" "2024-04-14 17-48-32.mkv" "2024-04-14 17-59-14.mkv" ".cache/" ".zcompdump" "verse1.wav" "2024-04-22 14-29-41.mkv" "smollest.jpg" ".thunderbird/" "index.html" ".BEID_0.log" "2024-04-22 14-29-41.mp4" "Videos/" ".python_history" ".local/" ".gnupg/" ".packettracer" ".lazarus/" ".runescape" "verse2-2.wav" "../" "./")
+
+ ("/home/emilia/Coding/SELab/selab-2324-g46/cheat-sheets/" (26169 51728 516074 739000) "cheat-sheet-elza.md" "cheat-sheet-casper.md" "cheat-sheet-template.md" "cheat-sheet-dencall.md" "../" "./" "debugging-selab.md" "cheat-sheet-emilia.md" "Emily-cheat-sheet.md" "images/")
 
  ("/home/emilia/Coding/SELab/selab-2324-g46/verslagen/" (26154 17009 432254 922000) "Verslag-1-package-manager-markdown.md" "Verslag-4-WordPress-opzetten-in-de-Microsoft-Azure-cloudomgeving.md" "../" "./" "Verslag-3-Een-webserver-opzetten-in-een-virtuele-omgeving.md" "README.md" "Verslag-7-Cisco.md" "verslag-template.md" "Verslag-6-Troubleshooting.md" "Verslag-2-Een-databankserver-opzetten-in-een-virtuele-machine.md" "Verslag-5-Docker.md")
 
