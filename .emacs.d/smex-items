@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-upgrade-all
  org-mode
  overwrite-mode
  eval-buffer
  byte-compile-file
  eshell
  package-refresh-contents
- customize-face
 )
 
 ;; ----- smex-data -----
@@ -29,4 +29,5 @@
  (org-export-dispatch . 1)
  (org-mode . 6)
  (overwrite-mode . 1)
+ (package-upgrade-all . 1)
 )
