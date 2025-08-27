@@ -1,5 +1,3 @@
-fastfetch --load-config ~/.config/fastfetch/paleofetch.jsonc
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -10,6 +8,8 @@ fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/.emacs.d/bin:$PATH
 
+export PATH=$PATH:~/.cargo/bin/
+
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
@@ -17,7 +17,7 @@ ZSH=/usr/share/oh-my-zsh/
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -81,7 +81,7 @@ source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo)
+plugins=(git zsh-autosuggestions sudo)
 
 
 # User configuration
@@ -121,3 +121,14 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(zoxide init zsh)"
+source /home/emilia/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
+# Created by `pipx` on 2024-08-20 14:46:39
+export PATH="$PATH:/home/emilia/.local/bin"
+source /usr/share/nvm/init-nvm.sh
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/emilia/.lmstudio/bin"
+
+alias ls="eza"
