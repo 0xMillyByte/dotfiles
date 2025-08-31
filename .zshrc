@@ -7,7 +7,8 @@ fi
 eval "$(zoxide init zsh)"
 
 # aliases
-alias ls="eza"
+alias ls="eza --icons=auto"
+alias cd="z"
 
 # Track if first prompt has been shown
 FIRST_PROMPT=true
