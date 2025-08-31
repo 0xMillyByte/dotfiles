@@ -10,6 +10,8 @@ eval "$(zoxide init zsh)"
 alias ls="eza --icons=auto"
 alias cd="z"
 
+eval "$(direnv hook zsh)"
+
 # Track if first prompt has been shown
 FIRST_PROMPT=true
 
